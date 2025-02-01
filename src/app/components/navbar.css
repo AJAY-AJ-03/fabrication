@@ -1,0 +1,27 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  transition: top 0.3s; /* Smooth transition when hiding/showing */
+}
+
+.navbar.scrolled {
+  top: -60px; /* Adjust based on your navbar height */
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.nav-item:hover {
+  background-color: #555;
+}
+
+.nav-icon {
+  margin-right: 10px;
+}

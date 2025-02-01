@@ -1,0 +1,79 @@
+.service-container{
+  height: 100vh;
+  background: url(https://images.unsplash.com/photo-1499815022134-5a333f5a299c?q=80&w=1450&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+}
+
+.services-title h1{
+  color: #904646;
+    text-align: center;
+    font-family: "Big Shoulders Display";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+.service-body{
+  /* border: 1px solid black; */
+  position: relative;
+  top: 100px;
+  margin-left: 10%;
+  width: 600px;
+}
+
+.service-body h3{
+  color: #fff;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+}
+
+.services-para p{
+  color: #fff;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  margin: 24px 0px;
+}
+
+.type-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 180px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.first-type{
+  background-color: #904646;
+  border: 1px solid white;
+  height: 200px;
+
+}
+
+.first-type h3{
+  color: #fff;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 116%;
+  text-transform: capitalize;
+  margin-left: 10px;
+
+}
+
+.first-maincontainer{
+  border: 2px solid white;
+}
+
+.first-type img{
+  
+  /* margin-top: 10px; */
+}
